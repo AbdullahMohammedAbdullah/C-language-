@@ -221,3 +221,19 @@ int main ()
 	return 0;
 }
 */
+
+
+int main ()
+{
+	int i[5];
+	i[0] = 5;
+	
+	printf("%u\t\t" , i[0]);
+	printf("%u\t\t" , i[1]);
+	printf("%u\t\t" , i[2]);
+	printf("%u\t\t" , i[3]);
+	printf("%u\t\t" , i[4]);
+
+	
+	return 0 ;
+}
