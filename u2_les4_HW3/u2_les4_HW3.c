@@ -344,32 +344,3 @@ int main ()
 }
 */
 
-//LAB_8_  rand() function random  #################################
-//fill array [1000] with rand()
-//find index satisfy that the pervious and the next to it are lower than it 
-
-/*
-#include <stdlib.h>
-
-int main ()
-{
-	int Loc_u32arr[100];
-	char Loc_u8Count;
-	
-	for ( Loc_u8Count = 0; Loc_u8Count < 100; Loc_u8Count++)
-	{
-		Loc_u32arr[Loc_u8Count] = rand();
-	}
-	
-	for ( Loc_u8Count = 1; Loc_u8Count < 100; Loc_u8Count++)
-	{
-		if ( Loc_u32arr[Loc_u8Count-1] < Loc_u32arr[Loc_u8Count]  &&   Loc_u32arr[Loc_u8Count+1] < Loc_u32arr[Loc_u8Count])
-		{
-			printf("%d\n",Loc_u8Count);
-		}
-	}
-	printf("%d\t%d\t%d", Loc_u32arr[0], Loc_u32arr[1], Loc_u32arr[2]);
-	
-	return 0;
-}
-*/
